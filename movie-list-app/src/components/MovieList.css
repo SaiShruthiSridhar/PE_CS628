@@ -1,0 +1,32 @@
+.movie-tile {
+  max-width: 700px;
+  margin: auto;
+  padding: 16px;
+  font-family: sans-serif;
+  background-color: honeydew;
+  color: black;
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.movie-card {
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  background-color: mistyrose;
+  margin-bottom: 14px;
+  padding: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.movie-card:hover {
+  background-color: peachpuff;
+  color: black;
+}
